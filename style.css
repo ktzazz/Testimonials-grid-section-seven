@@ -26,6 +26,8 @@
 
 body{
     background-color: var(--LightGrayishBlue);
+    display: flex;
+    flex-direction: column;
     max-width: 100vw;
     height: auto;
 }
@@ -38,6 +40,7 @@ body{
     padding-block-start: 5rem;
     padding-block-end: 3rem;
     gap: 1.5rem;
+    height: 100%;
 }
 
 .user1, .user2, .user3, .user4,.user5{
@@ -152,7 +155,7 @@ body{
 
 .attribution{
     font-family: var(--font);
-    margin-block-end: 15px;
+    padding-bottom: 1rem;
     font-size: var(--size);
 }
 
@@ -177,8 +180,8 @@ body{
         max-height: 27rem;
         justify-content: stretch;
         align-items: stretch;    
-        padding-block-start: 0rem;
-        padding-block-end: 0rem;
+        padding-block-start: 3rem;
+        padding-block-end: 10rem;
     }
 
     .user1{
@@ -218,7 +221,7 @@ body{
 
     .attribution{
         position: absolute;
-        bottom: 15px;
+        margin-top: 16.5rem; 
     }
 
     
